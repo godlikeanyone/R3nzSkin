@@ -21,4 +21,4 @@ jobs:
       with:
         name: R3nzSkin
         path: |
-          R3nzSkin
+          R3nzSkin/Release
