@@ -19,5 +19,4 @@ jobs:
       uses: actions/upload-artifact@v3
       with:
         name: R3nzSkin
-        path: |
-          R3nzSkin/Release
+        path: R3nzSkin/Release
