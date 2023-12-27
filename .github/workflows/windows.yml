@@ -20,3 +20,8 @@ jobs:
       with:
         name: R3nzSkin.zip
         path: R3nzSkin
+    - name : Upload artifact
+      uses: actions/upload-artifact@v3
+      with:
+        name: R3nzSkin_Injector.zip
+        path: R3nzSkin_Injector
