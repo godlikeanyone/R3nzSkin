@@ -19,10 +19,10 @@ jobs:
     - name : Upload artifact
       uses: actions/upload-artifact@v3
       with:
-        name: R3nzSkin.zip
-        path: R3nzSkin
+        name: R3nzSkin.dll
+        path: R3nzSkin/Release/RiotGamesServers/
     - name : Upload artifact
       uses: actions/upload-artifact@v3
       with:
-        name: R3nzSkin_Injector.zip
-        path: R3nzSkin_Injector
+        name: R3nzSkin_Injector.exe
+        path: R3nzSkin_Injector/Release/RiotGamesServers/
