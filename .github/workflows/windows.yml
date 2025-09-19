@@ -20,4 +20,4 @@ jobs:
       uses: actions/upload-artifact@v4
       with:
         name: R3nzSkin-AVX2
-        path: Release\**
+        path: R3nzSkin\Release\**
