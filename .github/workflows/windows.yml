@@ -1,6 +1,6 @@
 name: Windows
 
-on: workflow_dispatch
+on: [push, workflow_dispatch]
 
 jobs:
   build:
@@ -23,6 +23,4 @@ jobs:
       uses: actions/upload-artifact@v4
       with:
         name: R3nzSkin-AVX2
-        path: |
-          x64/RiotGamesServers/*.exe
-          x64/RiotGamesServers/*.dll
+        path: R3nzSkin\R3nzSkin\R3nzSkin\Release\**
