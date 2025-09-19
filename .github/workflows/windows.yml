@@ -16,11 +16,8 @@ jobs:
     - name: Build
       shell: cmd
       run: msbuild R3nzSkin/R3nzSkin.vcxproj /p:Platform=x64 /p:Configuration=${{ matrix.configuration }} /p:CL_AdditionalOptions="/arch:AVX2"
-    - name: Show files
-      shell: cmd
-      run: dir /s
     - name: Upload build artifacts
       uses: actions/upload-artifact@v4
       with:
         name: R3nzSkin-AVX2
-        path: R3nzSkin\**
+        path: Release\**
